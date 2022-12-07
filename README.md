@@ -9,8 +9,8 @@ ciphertext c = m<sup>e</sup> mod n.
 For the faster RSA decryption, the decryption function (m' = c<sup>d</sup> mod n) is computed using CRT as follows:
 </br></br>
 q' = q<sup>−1</sup> mod p	
-dp = d  mod (p − 1)	dq = d mod (q − 1)
-cp = c  mod p	cq = c mod q
+d<sub>p</sub> = d  mod (p − 1)	
+c<sub>p</sub> = c  mod p	
  
 mp = cdp
  
@@ -25,6 +25,10 @@ m = mp · q · qJ + mq · p · pJ mod n.
 </br>
 </br>
 p' = p<sup>−1</sup> mod q
+d<sub>q</sub> = d mod (q − 1)
+c<sub>q</sub> = c mod q
+
+
 </br>
 </br>
 Please implement the above CRT based decryption in your chosen programming language. You are prohibited to use any CRT based available implementation on Internet or other sources.
