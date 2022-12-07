@@ -1,8 +1,12 @@
 # Chinese Remainder Theorem 
 
 This program is on the implementation of speeding up the RSA decryption using CRT. 
-Use the parameters pk = (e, n) and sk = (d, p, q) from A1 and randomly pick a large message m from Z<sub>n∗ </sub>
-and compute the ciphertext c = me   mod n.  For the faster RSA decryption, the decryption function (mJ = cd mod n) is computed using CRT as follows:
+
+Parameters p<sub>k</sub>= (e, n) and sk = (d, p, q).
+Randomly pick a large message m from Z<sub>n∗ </sub>
+ciphertext c = m<sup>e</sup> mod n.  
+</br>
+For the faster RSA decryption, the decryption function (m' = c<sup>d</sup> mod n) is computed using CRT as follows:
 qJ = q−1 mod p	pJ = p−1 mod q
 dp = d  mod (p − 1)	dq = d mod (q − 1)
 cp = c  mod p	cq = c mod q
