@@ -23,5 +23,4 @@ m = m<sub>p</sub>· q · q' + m<sub>q</sub> · p · p' mod n.
 
 </br>
 </br>
-Please implement the above CRT based decryption in your chosen programming language. You are prohibited to use any CRT based available implementation on Internet or other sources.
-Please compare the execution time of the naive RSA decryption in A1 and the CRT based decryption in A2. When you capture the time, you need to include the timings of computing cp, cq, mp, mq and m.
+
