@@ -24,9 +24,9 @@ m = mp · q · qJ + mq · p · pJ mod n.
 
 </br>
 </br>
-p' = p<sup>−1</sup> mod q
-d<sub>q</sub> = d mod (q − 1)
-c<sub>q</sub> = c mod q
+p' = p<sup>−1</sup> mod q </br>
+d<sub>q</sub> = d mod (q − 1) </br>
+c<sub>q</sub> = c mod q </br>
 
 
 </br>
